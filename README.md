@@ -14,7 +14,7 @@ This is a problem that was given during a pre-interview vetting. Instructions we
 - Install XAMPP or WAMP.
 - Copy the project folder into the htdocs directory (for XAMPP) or www directory (for WAMP).
 ### Set Up Database
-- Open phpMyAdmin and create a new database named wardrobe_db.
+- Open phpMyAdmin and create a new database named wordrobesystem.
 - Import the provided SQL file to create tables.
 ### Accessing project on local machine
-Open your browser and navigate to http://localhost/wardrobe-management-system.
+Open your browser and navigate to http://localhost/wordrobesystem.
