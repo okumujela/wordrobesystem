@@ -139,6 +139,9 @@ while ($row = mysqli_fetch_assoc($result)) {
                         <td><?php echo htmlspecialchars($item['name']); ?></td>
                         <td><?php echo htmlspecialchars($item['category']); ?></td>
                         <td>
+                            <a href="edit_clothes.php?id=<?php echo $item['id']; ?>" class="btn btn-sm btn-secondary">Edit</a>
+                        </td>
+                        <td>
                             <!-- Delete Button -->
                             <a href="?delete=<?php echo $item['id']; ?>" class="btn btn-danger btn-sm"
                                onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>

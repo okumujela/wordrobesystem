@@ -66,6 +66,9 @@ while ($row = mysqli_fetch_assoc($result)) {
                         <td><?php echo $index + 1; ?></td>
                         <td><?php echo htmlspecialchars($category['name']); ?></td>
                         <td>
+                            <a href="edit_category.php?id=<?php echo $category['id']; ?>" class="btn btn-sm btn-secondary">Edit</a>
+                        </td>
+                        <td>
                             <!-- Delete Button -->
                             <a href="?delete_category=<?php echo $category['id']; ?>" class="btn btn-danger btn-sm"
                                onclick="return confirm('Are you sure you want to delete this category?');">Delete</a>
