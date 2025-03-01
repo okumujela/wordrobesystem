@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wardrobe Management System</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container mt-5 text-center">
+      <h1 class="mb-4">Wardrobe Management System</h1>
+      <p>Welcome to your personal wardrobe management tool!</p>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card shadow mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Login Form</h5>
+              <p>Manage your wardrobe with ease.</p>
+              <form action="login.php" method="post">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  class="form-control mb-2"
+                />
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  class="form-control mb-2"
+                />
+                <button type="submit" name="login" class="btn btn-primary">
+                  Login
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
