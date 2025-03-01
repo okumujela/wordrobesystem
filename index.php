@@ -14,8 +14,8 @@
         <div class="col-md-6">
             <div class="card shadow mb-4">
                 <div class="card-body">
-                    <h5 class="card-title">Get Started</h5>
-                    <p>Manage your wardrobe with ease.</p>
+                    <h5 class="card-title">Dress To Impress!</h5>
+                    <p>Handling your wardrobe with ease.</p>
                     <a href="login.html" class="btn btn-primary w-100 mb-2">Login</a>
                     <a href="register.html" class="btn btn-secondary w-100">Register</a>
                 </div>
