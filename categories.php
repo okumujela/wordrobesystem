@@ -48,6 +48,9 @@ while ($row = mysqli_fetch_assoc($result)) {
     <form action="" method="post" class="mb-4">
         <input type="text" name="name" placeholder="Category Name" class="form-control" required>
         <button type="submit" name="add_category" class="btn btn-primary mt-2">Add Category</button>
+        <!-- Redirection to dashboard -->
+         <br>
+        <a href="dashboard.php" class="btn btn-secondary mt-4">Back to Dashboard</a>
     </form>
 
     <!-- Categories Table -->
